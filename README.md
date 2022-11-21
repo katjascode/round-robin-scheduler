@@ -1,6 +1,6 @@
 # round-robin-scheduler
 
-This program is written in C for Atmega328p to control 4 LEDs via the Round Robin scheduling algorithm.
+This program is written in C for Atmega328p to control 4 LEDs connected to the microcontroller ports B and D via the Round Robin scheduling algorithm.
 
 4 tasks are initiated and added to the ready-to-go queue. After that, timer1 is initiated and the CTC timer interrupt is activated. The timer period and the
 time quantum of the scheduler is set to 500 ms.
